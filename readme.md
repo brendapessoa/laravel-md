@@ -1,3 +1,6 @@
+Part of the pluralsight course - Laravel - Data and Models
+
+
 # Laravel - Getting Started (Pluralsight Course)
 This repository holds the starting source code of the "PHP Development with Laravel - Working with Models & Data" course on Pluralsight.
 
