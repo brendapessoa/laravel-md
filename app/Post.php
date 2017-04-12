@@ -9,7 +9,7 @@ class Post extends Model
 
     public function likes()
     {
-        return $this->hasMany('App/Likes', 'post_id');
+        return $this->hasMany('App\Like', 'post_id');
     }
     
 }
