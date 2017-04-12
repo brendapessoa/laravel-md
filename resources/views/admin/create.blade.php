@@ -13,6 +13,11 @@
                     <label for="content">Content</label>
                     <input type="text" class="form-control" id="content" name="content">
                 </div>
+                @foreach($tags as $tag)
+                    <label>
+                        <input type="checkbox" name="tags[]" value="{{$tag->id}}"> {{$tag->name}}
+                    </label>
+                @endforeach
                 {{ csrf_field() }}
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
