@@ -64,4 +64,3 @@ Route::group(['prefix' => 'admin'], function() {
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
